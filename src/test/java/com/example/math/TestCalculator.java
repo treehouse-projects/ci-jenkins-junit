@@ -21,6 +21,7 @@ public class TestCalculator {
     public void multiply() {
         Calculator calculator = new Calculator();
         assertEquals(30, calculator.multiply(5, 6));
+        assertEquals(5, calculator.multiply(5, 1));
     }
 
 }
