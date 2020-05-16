@@ -1,0 +1,14 @@
+pipeline{
+    agent any
+    stages{
+        ('Build' stage omiited)
+        stage('test'){
+
+        }
+    }
+}
+post{
+    always{
+        junit 'target/surefile-reports/*.xml'
+    }
+}
