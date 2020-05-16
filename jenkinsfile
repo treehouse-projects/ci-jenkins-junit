@@ -3,7 +3,7 @@ pipeline{
     stages{
         ('Build' stage omiited)
         stage('test'){
-
+            //move to posts
         }
     }
 }
